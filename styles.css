@@ -1,0 +1,241 @@
+* {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+  font-size: 1.30rem;
+  line-height: 2;
+  color: white;
+}
+
+h2 {
+  font-size: 1.59rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  color: #5588ee;
+}
+
+h3 {
+  color: #5588ee;
+}
+
+h4 {
+  color: white;
+  font-size: 1.1rem
+}
+
+#title {
+    background-color: #5588ee;
+    color:white;
+    font-size: 1 rem;
+  }
+
+.title-image {
+    width: 49%;
+    transform: rotate(5deg);
+    position: absolute;
+    right: 30%;
+    margin: 25px 10px;
+    top: -40%;
+  }
+
+p {
+  text-align: center;
+  color:  #5588ee;
+  font-weight: bold;
+}
+
+.jpeg {
+  width: 15%;
+}
+
+.container-fluid {
+    padding: 3% 15% 8%;
+  }
+
+.navbar {
+    padding-bottom: 3rem;
+  }
+.navbar-brand {
+  width:90px;
+  height:25px;
+  display:inline-block;
+  margin-top:-3px;
+  }
+
+.navbar-toggler-icon {
+  font-size:0.5em;
+  position: relative;
+}
+
+.navbar-toggler{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+  
+.nav-item {
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+.nav-link {
+    font-size: 0.7rem;
+}
+
+#features {
+  padding: 9% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#5588ee;
+  color: white;
+}
+
+.testimonial-image {
+  margin: 30px;
+  border-radius: 5%;
+}
+
+div.feature-box img {
+  margin: 5px;
+}
+
+/* pricing section*/
+#pricing {
+  padding: 90px;
+  text-align: center;
+  background-color: #5588ee;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing h2 {
+  color:white;
+}
+
+/* company backing */
+#press {
+  background-color: white;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px -10px;
+}
+
+.download {
+  padding: 9% 15%;
+}
+
+/*Contact*/
+#contact {
+  background-color: white;
+  text-align:center;
+  margin: 5%;
+  color: black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Download Buttons */
+.download {
+  margin: 5%;
+}
+
+em {
+  color:  white;
+  text-align:center;
+}
+
+/*middle container*/
+
+.middle-container {
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.profile {
+  margin: 75px auto 130px auto;
+  text-align: left;
+  line-height: 2.3;
+}
+
+.pfp {
+  border-radius: 3%;
+  position: relative; right: 33px;
+}
+
+.userexperience {
+  background-color:#5588ee;
+}
+
+h6 {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+#process {
+  padding: 9% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.process-box {
+  text-align: center;
+  padding: 3%;
+}
+
+div.process-box img {
+  margin: 10px;
+}
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1 {
+    font-size: 1 rem;
+  }
+
+  .middle-container {
+    text-align:center;
+  }
+
+  .pfp {
+    border-radius: 3%;
+    position: relative; right: 33px;
+  }
+
+  h2 {
+    font-size: 1 rem;
+  }
+
+}
+
